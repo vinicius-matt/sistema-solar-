@@ -1,0 +1,99 @@
+/* Definir o estilo global para o body */
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  height: 150vmin;
+}
+
+/* Definir o estilo para todos os objetos no espaço */
+.object {
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(50vmin);
+}
+
+/* Definir o estilo das órbitas dos planetas */
+.p-orbit,
+#m-orbit {
+  border: 0.1vmin solid lightgrey;
+  opacity: 0.5;
+  background: transparent;
+}
+
+/* Definir a animação de rotação */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Definir o estilo da órbita da lua */
+#m-orbit {
+  height: 8vmin;
+  width: 8vmin;
+}
+
+/* Definir o estilo para os planetas e a lua */
+.planet,
+#moon {
+  z-index: 100;
+}
+
+/* Definir o estilo do sol */
+#sun {
+  height: 12vmin;
+  width: 12vmin;
+}
+
+/* Definir o estilo da lua */
+#moon {
+  height: 1vmin;
+  width: 1vmin;
+  background-color: white;
+}
+
+/* Definir o estilo de Mercúrio */
+#mercury {
+  height: 2vmin;
+  width: 2vmin;
+}
+
+/* Definir o estilo de Vênus */
+#venus {
+  height: 3vmin;
+  width: 3vmin;
+}
+
+/* Definir o estilo da Terra */
+#earth {
+  height: 4vmin;
+  width: 4vmin;
+}
+
+/* Definir o estilo de Marte */
+#mars {
+  height: 3.5vmin;
+  width: 3.5vmin;
+}
+
+Definir o estilo de Júpiter
+#jupiter {
+  height: 12vmin;
+  width: 12vmin;
+}
+
+/* Definir o estilo de Saturno */
+#saturn {
+  height: 12vmin;
+  width: 12vmin;
+  border-radius: 0%;
+}
